@@ -10,9 +10,9 @@ PRINT
 
 // Any line starting with "FUNC" will become a new function. It must have a name.
 
-// Say you wanted to print something, you would have the PRINT function, then following that, paramaters starting with a -
-// Most paramaters have to start with something like "TEXT" or "VAR" depending on what it's reffering to.
-// Paramaters are jumbled though and scrambled, as that is the base concept of this esolang
+// Say you wanted to print something, you would have the PRINT function, then following that, parameters starting with a -
+// Most parameters have to start with something like "TEXT" or "VAR" depending on what it's referring to.
+// Parameters are jumbled though and scrambled, as that is the base concept of this esolang
 
 
 FUNC MAIN
@@ -38,7 +38,7 @@ PRINT
 -TEXT "GOO" is not "GOO" for some reason
 
 // Here we use a workaround for the IF statement
-// Because all paramaters are jumbled, it's better if all the paramaters are the same. You can't do much that way but it makes sure that it runs 100% of the time.
+// Because all parameters are jumbled, it's better if all the parameters are the same. You can't do much that way but it makes sure that it runs 100% of the time.
 
 //IF the text "GOO" is equal to "GOO" then we go to the function called "TEXT GOO". When you go to a function, it cancels all the other lines after it.
 
