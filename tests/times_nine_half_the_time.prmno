@@ -1,0 +1,13 @@
+// Times nine half the time
+
+FUNC MAIN
+
+INPUTNUM
+-TEXT to print
+
+TIMES
+-to print
+-9
+
+PRINT
+-VAR to print
