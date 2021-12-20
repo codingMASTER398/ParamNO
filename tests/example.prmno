@@ -1,0 +1,48 @@
+// This is an example of my ParamNO esolang
+// Comments can be made with double lines like in JavaScript
+// But you can't append a comment to a line of actual code, so make sure you are on a new line.
+
+
+// This function called "GOO" Should never run
+FUNC goo
+PRINT
+-TEXT Huh? This isn't supposed to run
+
+// Any line starting with "FUNC" will become a new function. It must have a name.
+
+// Say you wanted to print something, you would have the PRINT function, then following that, paramaters starting with a -
+// Most paramaters have to start with something like "TEXT" or "VAR" depending on what it's reffering to.
+// Paramaters are jumbled though and scrambled, as that is the base concept of this esolang
+
+
+FUNC MAIN
+
+// The MAIN function is always called first.
+
+
+// Here we set the variable GOO to GOO and print it.
+
+SET
+-TEXT GOO
+-TEXT GOO
+
+PRINT
+-VAR GOO
+
+IF
+-TEXT GOO
+-TEXT GOO
+-TEXT GOO
+
+PRINT
+-TEXT "GOO" is not "GOO" for some reason
+
+// Here we use a workaround for the IF statement
+// Because all paramaters are jumbled, it's better if all the paramaters are the same. You can't do much that way but it makes sure that it runs 100% of the time.
+
+//IF the text "GOO" is equal to "GOO" then we go to the function called "TEXT GOO". When you go to a function, it cancels all the other lines after it.
+
+FUNC TEXT GOO
+
+PRINT
+-TEXT Yes, "GOO" is in fact "GOO"
