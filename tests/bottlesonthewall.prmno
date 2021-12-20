@@ -1,0 +1,36 @@
+// Bottles of beer on the wall program
+// Enter a number and it will print out the lyrics
+
+FUNC MAIN
+INPUTNUM
+-TEXT bottles
+GO
+-DOWN
+FUNC DOWN
+PRINT
+ADDNEXTPRINT
+-VAR bottles
+ADDNEXTPRINT
+-TEXT bottles of beer on the wall,
+ADDNEXTPRINT
+-VAR bottles
+PRINT
+-TEXT bottles of beer!
+MINUSONE
+-bottles
+ADDNEXTPRINT
+-TEXT Take one down, pass it around
+ADDNEXTPRINT
+-VAR bottles
+PRINT
+-TEXT bottles of beer on the wall.
+ZEROSTOP
+-VAR bottles
+GO
+-DOWN
+FUNC STOPOVERRIDE
+PRINT
+PRINT
+-TEXT No more bottles of beer on the wall, no more bottles of beer.
+PRINT
+-TEXT There's nothing else to fall, because there's no more bottles of beer on the wall.
